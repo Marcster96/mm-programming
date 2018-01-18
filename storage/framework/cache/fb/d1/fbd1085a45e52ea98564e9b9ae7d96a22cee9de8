@@ -1,0 +1,16 @@
+1516284580a:1:{s:8:"home.htm";a:9:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:275:"title = "Home"
+url = "/"
+layout = "basis"
+is_hidden = 0
+==
+<div id="homeJumbotron">
+    <h1 class="text-center">Willkommen!</h1>
+    <h2 class="text-center">Mein Name ist Marc Mayer</h2>
+    <img id="meinBild" class="img-circle" src="{{ 'ich.png'|media }}">
+
+</div>";s:5:"mtime";i:1516260648;s:6:"markup";s:211:"<div id="homeJumbotron">
+    <h1 class="text-center">Willkommen!</h1>
+    <h2 class="text-center">Mein Name ist Marc Mayer</h2>
+    <img id="meinBild" class="img-circle" src="{{ 'ich.png'|media }}">
+
+</div>";s:4:"code";N;s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:5:"basis";s:9:"is_hidden";s:1:"0";}}

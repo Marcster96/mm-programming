@@ -1,0 +1,14 @@
+1516284580a:1:{s:13:"impressum.htm";a:9:{s:8:"fileName";s:13:"impressum.htm";s:7:"content";s:172:"title = "Impressum"
+url = "/impressum"
+layout = "basis"
+is_hidden = 0
+==
+<div class="container">
+    <h3>Impressum</h3>
+    <hr>
+    {% partial 'in_work' %}
+</div>";s:5:"mtime";i:1516202095;s:6:"markup";s:94:"<div class="container">
+    <h3>Impressum</h3>
+    <hr>
+    {% partial 'in_work' %}
+</div>";s:4:"code";N;s:5:"title";s:9:"Impressum";s:3:"url";s:10:"/impressum";s:6:"layout";s:5:"basis";s:9:"is_hidden";s:1:"0";}}

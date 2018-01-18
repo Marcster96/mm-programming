@@ -1,0 +1,48 @@
+#basis_footer{
+  .navbar{
+    min-height: 30px;
+  }
+}
+
+.navbar{
+  z-index: 9999;
+}
+
+body,html{
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+.img-center{
+  display: block; /*for the img inside your div */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.panel{
+
+  .panel-footer{
+    color: $gray-dark;
+    height: 40px;
+  }
+
+  .panel-body{
+    color: $gray-dark;
+    height: 350px;
+  }
+
+  .img-center{
+    margin-bottom: 40px;
+  }
+}
+
+
+.list-group{
+
+  .list-group-item{
+    color: $gray-dark;
+  }
+
+}

@@ -1,0 +1,10 @@
+<sharpUpdate>
+	<update appID="DokumentationsTool">
+		<version>3.0.2.0</version>
+		<url>http://mm-programming.de/themes/mm-programming/assets/dokumentationsTool/update/DokumentationsTool.exe</url>
+		<fileName>DokumentationsTool.exe</fileName>
+		<md5>8ff270c22609e153629cbf48e4fe19ba</md5>
+		<description>Importer implimentiert mit einer Kondition</description>
+		<launchArgs></launchArgs>
+	</update>
+</sharpUpdate>

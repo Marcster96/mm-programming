@@ -1,0 +1,14 @@
+1516284580a:1:{s:14:"ueber-mich.htm";a:9:{s:8:"fileName";s:14:"ueber-mich.htm";s:7:"content";s:175:"title = "Ueber Mich"
+url = "/ueber-mich"
+layout = "basis"
+is_hidden = 0
+==
+<div class="container">
+    <h3>Über Mich</h3>
+    <hr>
+    {% partial 'in_work' %}
+</div>";s:5:"mtime";i:1516200568;s:6:"markup";s:95:"<div class="container">
+    <h3>Über Mich</h3>
+    <hr>
+    {% partial 'in_work' %}
+</div>";s:4:"code";N;s:5:"title";s:10:"Ueber Mich";s:3:"url";s:11:"/ueber-mich";s:6:"layout";s:5:"basis";s:9:"is_hidden";s:1:"0";}}

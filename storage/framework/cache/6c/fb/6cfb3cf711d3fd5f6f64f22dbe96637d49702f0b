@@ -1,0 +1,10 @@
+1516284581a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:256:"==
+<nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+        <p class="text-center">Diese Seite ist Eigentum von Marc Mayer © 2018 - <a class="btn-link" href="{{'impressum'|page}}">Impressum</a></p>
+    </div>
+</nav>";s:5:"mtime";i:1516202309;s:6:"markup";s:252:"<nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+        <p class="text-center">Diese Seite ist Eigentum von Marc Mayer © 2018 - <a class="btn-link" href="{{'impressum'|page}}">Impressum</a></p>
+    </div>
+</nav>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

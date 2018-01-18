@@ -1,0 +1,66 @@
+1516284580a:1:{s:13:"blog-post.htm";a:10:{s:8:"fileName";s:13:"blog-post.htm";s:7:"content";s:1032:"title = "Blog Post"
+url = "/blog-post/:slug"
+layout = "basis"
+is_hidden = 0
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "blog-post"
+==
+<div class="container">
+   
+    {% set post = blogPost.post %}
+
+    <h3>{{post.title}}</h3>
+    <hr>
+    
+    <div class="container">
+        <div class="content">{{ post.content_html|raw }}</div>
+        
+        {% if post.featured_images.count %}
+            <div class="featured-images text-center">
+                {% for image in post.featured_images %}
+                    <p>
+                        <img
+                            data-src="{{ image.filename }}"
+                            src="{{ image.path }}"
+                            alt="{{ image.description }}"
+                            style="max-width: 100%" />
+                    </p>
+                {% endfor %}
+            </div>
+        {% endif %}
+        
+        <p class="info">
+            Erstellt am {{ post.published_at|date('d.m.Y') }}
+        </p>
+    </div>
+</div>";s:5:"mtime";i:1516272197;s:6:"markup";s:884:"<div class="container">
+   
+    {% set post = blogPost.post %}
+
+    <h3>{{post.title}}</h3>
+    <hr>
+    
+    <div class="container">
+        <div class="content">{{ post.content_html|raw }}</div>
+        
+        {% if post.featured_images.count %}
+            <div class="featured-images text-center">
+                {% for image in post.featured_images %}
+                    <p>
+                        <img
+                            data-src="{{ image.filename }}"
+                            src="{{ image.path }}"
+                            alt="{{ image.description }}"
+                            style="max-width: 100%" />
+                    </p>
+                {% endfor %}
+            </div>
+        {% endif %}
+        
+        <p class="info">
+            Erstellt am {{ post.published_at|date('d.m.Y') }}
+        </p>
+    </div>
+</div>";s:4:"code";N;s:5:"title";s:9:"Blog Post";s:3:"url";s:16:"/blog-post/:slug";s:6:"layout";s:5:"basis";s:9:"is_hidden";s:1:"0";s:8:"blogPost";a:2:{s:4:"slug";s:11:"{{ :slug }}";s:12:"categoryPage";s:9:"blog-post";}}}

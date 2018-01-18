@@ -1,0 +1,72 @@
+1516284580a:1:{s:12:"produkte.htm";a:9:{s:8:"fileName";s:12:"produkte.htm";s:7:"content";s:1599:"title = "Produkte"
+url = "/produkte"
+layout = "basis"
+is_hidden = 0
+==
+<div class="container">
+    <h3>Meine Produkte/ Projekte</h3>
+    <hr>
+    <div class="row">
+        <div class="col-md-5">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">DokumentationsTool v3.0.2</h3>
+                </div>
+                <div class="panel-body">
+                    <img class="img-center" width="128" height="128"  src="{{ 'dokumentationsTool.png'|media }}">
+                    <p class="text-center">{% content 'produkte/DokumentationsTool.htm' %}</p>
+                </div>
+                <div class="panel-footer">
+                    <a target="_blank" href="themes/mm-programming/assets/dokumentationsTool/DokumentationsTool.msi"> <p class="text-left">Zum Download <i class="fa fa-download"></i></p></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-offset-2 col-md-5">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Webseite - Wesselinger Gebäudeservice</h3>
+                </div>
+                <div class="panel-body">
+                    <img class="img-center" width="128" height="128"  src="{{ 'webseite.png'|media }}">
+                    <p class="text-center">{% content 'produkte/WGS.htm' %}</p>
+                </div>
+                <div class="panel-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1516259954;s:6:"markup";s:1523:"<div class="container">
+    <h3>Meine Produkte/ Projekte</h3>
+    <hr>
+    <div class="row">
+        <div class="col-md-5">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">DokumentationsTool v3.0.2</h3>
+                </div>
+                <div class="panel-body">
+                    <img class="img-center" width="128" height="128"  src="{{ 'dokumentationsTool.png'|media }}">
+                    <p class="text-center">{% content 'produkte/DokumentationsTool.htm' %}</p>
+                </div>
+                <div class="panel-footer">
+                    <a target="_blank" href="themes/mm-programming/assets/dokumentationsTool/DokumentationsTool.msi"> <p class="text-left">Zum Download <i class="fa fa-download"></i></p></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-offset-2 col-md-5">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Webseite - Wesselinger Gebäudeservice</h3>
+                </div>
+                <div class="panel-body">
+                    <img class="img-center" width="128" height="128"  src="{{ 'webseite.png'|media }}">
+                    <p class="text-center">{% content 'produkte/WGS.htm' %}</p>
+                </div>
+                <div class="panel-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>";s:4:"code";N;s:5:"title";s:8:"Produkte";s:3:"url";s:9:"/produkte";s:6:"layout";s:5:"basis";s:9:"is_hidden";s:1:"0";}}

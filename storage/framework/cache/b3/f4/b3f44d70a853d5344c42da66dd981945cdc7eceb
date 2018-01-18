@@ -1,0 +1,70 @@
+1516284580a:1:{s:9:"basis.htm";a:6:{s:8:"fileName";s:9:"basis.htm";s:7:"content";s:1316:"==
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Die 3 Meta-Tags oben *müssen* zuerst im head stehen; jeglicher sonstiger head-Inhalt muss *nach* diesen Tags kommen -->
+    <title>MM-Programming | {{ this.page.title }}</title>
+    <link href="{{ ['assets/css/app.css']|theme }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <section id="basis_nav">
+      {% partial "navbar" %}
+    </section>
+
+    <section id="basis_content">
+      {%  page %}
+    </section>
+
+    {% if  this.page.filename != 'home.htm' %}
+      <footer id="basis_footer">
+        <!-- Wenn es sich um die Home-Seite handelt wird kein Footer ausgegeben-->
+          {% partial "footer" %}
+      </footer>
+    {% endif %}
+    <!-- Bootstrap-JavaScript
+    ================================================== -->
+    <!-- Am Ende des Dokuments platziert, damit Seiten schneller laden -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  </body>
+</html>";s:5:"mtime";i:1516270392;s:6:"markup";s:1312:"<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Die 3 Meta-Tags oben *müssen* zuerst im head stehen; jeglicher sonstiger head-Inhalt muss *nach* diesen Tags kommen -->
+    <title>MM-Programming | {{ this.page.title }}</title>
+    <link href="{{ ['assets/css/app.css']|theme }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <section id="basis_nav">
+      {% partial "navbar" %}
+    </section>
+
+    <section id="basis_content">
+      {%  page %}
+    </section>
+
+    {% if  this.page.filename != 'home.htm' %}
+      <footer id="basis_footer">
+        <!-- Wenn es sich um die Home-Seite handelt wird kein Footer ausgegeben-->
+          {% partial "footer" %}
+      </footer>
+    {% endif %}
+    <!-- Bootstrap-JavaScript
+    ================================================== -->
+    <!-- Am Ende des Dokuments platziert, damit Seiten schneller laden -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  </body>
+</html>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

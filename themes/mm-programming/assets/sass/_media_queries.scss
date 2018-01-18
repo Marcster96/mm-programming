@@ -1,0 +1,82 @@
+@media screen and (min-width: 990px) {
+  #homeJumbotron{
+    width: 85%;
+    height: 70%;
+    
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+
+    h1{
+      font-size: 36px;
+    }
+
+    h2{
+      font-size: 20pt;
+    }
+
+    #meinBild{
+
+
+      display: block; /*for the img inside your div */
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 40px;
+      height: 350px;
+      width: 350px;
+    }
+  }
+
+  #basis_nav{
+    .navbar{
+      font-size: 15pt;
+    }
+
+    .navbar-brand{
+      font-size: 18pt;
+    }
+  }
+}
+
+
+
+
+@media screen and (max-width: 989px) {
+  #homeJumbotron{
+    width: 85%;
+    height: 65%;
+
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+
+    h1{
+      font-size: 25px;
+    }
+
+    h2{
+      font-size: 18px;
+    }
+
+    #meinBild{
+
+      display: block; /*for the img inside your div */
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 40px;
+      height: 200px;
+      width: 200px;
+    }
+  }
+
+  #basis_nav{
+    .navbar{
+      font-size: 12pt;
+    }
+
+    .navbar-brand{
+      font-size: 15pt;
+    }
+  }
+
+}

@@ -1,0 +1,10 @@
+<sharpUpdate>
+	<update appID="DokumentationsTool">
+		<version>3.0.2.0</version>
+		<url>http://mm-programming.de/dokumentationsTool/update/DokumentationsTool.exe</url>
+		<fileName>DokumentationsTool.exe</fileName>
+		<md5>a2d75a45dc2a6e769a3a01d58f399215</md5>
+		<description>Importer für die alte Struktur eingefügt</description>
+		<launchArgs></launchArgs>
+	</update>
+</sharpUpdate>

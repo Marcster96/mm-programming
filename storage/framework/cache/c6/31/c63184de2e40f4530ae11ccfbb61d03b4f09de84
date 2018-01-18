@@ -1,0 +1,58 @@
+1516284581a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:1603:"==
+<nav class="navbar navbar-default">
+    <div class="container">
+        <a class="navbar-brand " href="{{ 'home'|page}}">MM-Programming</a>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Navigation ein-/ausblenden</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right ">
+                <li class="nav-item {{ this.page.baseFileName == 'home' ? ' active ' }}">
+                    <a class="navbar-link" href="{{ 'home'|page }}">Startseite</a>
+                </li>
+                <li class="nav-item {{ this.page.baseFileName == 'produkte' ? ' active ' }}">
+                    <a class="navbar-link" href="{{ 'produkte'|page }}">Produkte</a>
+                </li>
+                <li class="nav-item {{ this.page.baseFileName == 'sql-blog' ? ' active ' }}">
+                    <a class="navbar-link" href="{{ 'sql-blog'|page }}">SQL Blog</a>
+                </li>
+                <li class="nav-item {{ this.page.baseFileName == 'ueber-mich' ? ' active ' }}">
+                    <a class="navbar-link" href="{{ 'ueber-mich'|page }}">Über Mich</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>";s:5:"mtime";i:1516260757;s:6:"markup";s:1599:"<nav class="navbar navbar-default">
+    <div class="container">
+        <a class="navbar-brand " href="{{ 'home'|page}}">MM-Programming</a>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Navigation ein-/ausblenden</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right ">
+                <li class="nav-item {{ this.page.baseFileName == 'home' ? ' active ' }}">
+                    <a class="navbar-link" href="{{ 'home'|page }}">Startseite</a>
+                </li>
+                <li class="nav-item {{ this.page.baseFileName == 'produkte' ? ' active ' }}">
+                    <a class="navbar-link" href="{{ 'produkte'|page }}">Produkte</a>
+                </li>
+                <li class="nav-item {{ this.page.baseFileName == 'sql-blog' ? ' active ' }}">
+                    <a class="navbar-link" href="{{ 'sql-blog'|page }}">SQL Blog</a>
+                </li>
+                <li class="nav-item {{ this.page.baseFileName == 'ueber-mich' ? ' active ' }}">
+                    <a class="navbar-link" href="{{ 'ueber-mich'|page }}">Über Mich</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

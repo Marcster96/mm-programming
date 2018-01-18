@@ -1,0 +1,54 @@
+title = "SQL Blog"
+url = "/sql-blog"
+layout = "basis"
+is_hidden = 0
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 20
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog-post"
+postPage = "blog-post"
+==
+<div class="container">
+    <h3>SQL Blog</h3>
+    <hr>
+    {% set posts = blogPosts.posts %}
+
+<ul class="list-group">
+    {% for post in posts %}
+        <li class="list-group-item">
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+            <p class="excerpt">{{ post.summary|raw }}</p>
+            <br>
+            <p class="info">
+                Erstellt am {{ post.published_at|date('d.m.Y') }}
+            </p>
+
+
+        </li>
+    {% else %}
+        <li class="no-data">{{ noPostsMessage }}</li>
+    {% endfor %}
+</ul>
+
+{% if posts.lastPage > 1 %}
+    <ul class="pagination">
+        {% if posts.currentPage > 1 %}
+            <li><a href="{{ this.page.baseFileName|page({ (pageParam): (posts.currentPage-1) }) }}">&larr; Prev</a></li>
+        {% endif %}
+
+        {% for page in 1..posts.lastPage %}
+            <li class="{{ posts.currentPage == page ? 'active' : null }}">
+                <a href="{{ this.page.baseFileName|page({ (pageParam): page }) }}">{{ page }}</a>
+            </li>
+        {% endfor %}
+
+        {% if posts.lastPage > posts.currentPage %}
+            <li><a href="{{ this.page.baseFileName|page({ (pageParam): (posts.currentPage+1) }) }}">Next &rarr;</a></li>
+        {% endif %}
+    </ul>
+{% endif %}
+</div>
